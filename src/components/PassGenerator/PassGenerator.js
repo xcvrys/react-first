@@ -74,9 +74,6 @@ const PassGenerator = () => {
     alert('Password copied to clipboard');
   };
 
-
-
-
   return (
     <>
       <div className="passgenerator">

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Pfolio from "../pfolio/pfolio"
 import React from 'react'
 import './home.css'
 
@@ -23,6 +24,7 @@ export const Home = () => {
           </a>
         </div>
       </nav>
+      <Pfolio />
     </>
   )
 }
