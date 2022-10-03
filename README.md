@@ -25,7 +25,7 @@
 
 ### It's not all destructuryzed but it works😎 just started learning
 
-[DEMO](https://youtu.be/d1YBv2mWll0)
+[DEMO](https://xcvrys.me/react-first/)
 
 <br/>
 
