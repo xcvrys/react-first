@@ -1,0 +1,67 @@
+.BMIcalculator {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BMIcalculator h1 {
+  font-size: 5rem;
+  color: #222;
+}
+.BMIcalculator .BMIcalculator__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BMIcalculator .BMIcalculator__input input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000000;
+  border-radius: 14px;
+}
+.BMIcalculator .BMIcalculator__input input:focus {
+  outline: none;
+}
+.BMIcalculator .BMIcalculator__input button {
+  font-size: 1.5rem;
+}
+.BMIcalculator button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000000;
+  border-radius: 14px;
+}
+.BMIcalculator button:hover {
+  background-color: #222;
+  color: #fff;
+  translate: -2px -2px;
+  box-shadow: 7px 7px 2px #000000;
+}
+.BMIcalculator .BMIcalculator__result {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BMIcalculator .BMIcalculator__result h1 {
+  font-size: 2rem;
+  color: #222;
+}
+.BMIcalculator .BMIcalculator__result p {
+  font-size: 2rem;
+}/*# sourceMappingURL=BMIcalculator.css.map */

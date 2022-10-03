@@ -1,0 +1,72 @@
+@import "../colors/colors.scss";
+
+.BMIcalculator {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 5rem;
+    color: $text;
+  }
+  .BMIcalculator__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      margin: 10px;
+      padding: 10px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border: none;
+      background-color: $white;
+      color: $text;
+      cursor: pointer;
+      box-shadow: 5px 5px 0px #000000;
+      border-radius: 14px;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      font-size: 1.5rem;
+    }
+  }
+  button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background-color: $white;
+    color: $text;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 14px;
+    &:hover {
+      background-color: $text;
+      color: $white;
+      translate: -2px -2px;
+      box-shadow: 7px 7px 2px #000000;
+    }
+  }
+  .BMIcalculator__result {
+    height: 20vh;
+    // width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 2rem;
+      color: $text;
+    }
+    p {
+      font-size: 2rem;
+      // color: $text;
+    }
+  }
+}

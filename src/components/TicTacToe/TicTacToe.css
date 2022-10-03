@@ -1,0 +1,56 @@
+.TicTacToe {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+}
+.TicTacToe p {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.TicTacToe table {
+  border-spacing: 15px;
+  border-radius: 1rem;
+}
+.TicTacToe table td {
+  background-color: #222;
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: #fff;
+}
+.TicTacToe table td:hover {
+  background-color: #e74a4a;
+}
+.TicTacToe button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+.TicTacToe button:hover {
+  background-color: #07cf5e;
+  color: #fff;
+}
+
+.Winner {
+  color: #07cf5e;
+}
+
+.Draw {
+  color: #808080;
+}/*# sourceMappingURL=TicTacToe.css.map */

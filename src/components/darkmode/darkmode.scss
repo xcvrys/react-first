@@ -1,0 +1,45 @@
+@import "../colors/colors.scss";
+
+.darkmode {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: $text;
+    color: $white;
+    cursor: pointer;
+    margin: 1rem;
+    &:hover {
+      background-color: $test;
+    }
+  }
+  .darkmode__background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $text;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 40rem;
+    h1 {
+      font-size: 5rem;
+    }
+    p {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  .darkmode__background--dark {
+    background-color: $text;
+    color: $white;
+  }
+}

@@ -1,0 +1,75 @@
+@import "../colors/colors.scss";
+
+.todo {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 5rem;
+    color: $text;
+  }
+  .todo__input {
+    input {
+      margin: 10px;
+      padding: 10px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border: none;
+      background-color: $white;
+      color: $text;
+      cursor: pointer;
+      box-shadow: 5px 5px 0px #000000;
+      border-radius: 14px;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      font-size: 1.5rem;
+    }
+  }
+  button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background-color: $white;
+    color: $text;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 14px;
+    &:hover {
+      background-color: $text;
+      color: $white;
+      translate: -2px -2px;
+      box-shadow: 7px 7px 2px #000000;
+    }
+  }
+  ul {
+    padding: 1rem;
+    max-height: 30vh;
+    max-width: 60vw;
+    overflow-y: auto;
+    list-style: none;
+    li {
+      margin: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+      border: none;
+      background-color: $white;
+      color: $text;
+      cursor: pointer;
+      box-shadow: 5px 5px 0px #000000;
+      border-radius: 14px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

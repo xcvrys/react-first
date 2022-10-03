@@ -1,0 +1,70 @@
+.weather {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather h1 {
+  font-size: 5rem;
+  color: #222;
+  height: 6.5rem;
+}
+.weather .weather__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather .weather__input input {
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000000;
+  border-radius: 14px;
+}
+.weather .weather__input input:focus {
+  outline: none;
+}
+.weather button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000000;
+  border-radius: 14px;
+}
+.weather button:hover {
+  background-color: #222;
+  color: #fff;
+  translate: -2px -2px;
+  box-shadow: 7px 7px 2px #000000;
+}
+.weather .weather__result {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+}
+.weather .weather__result p {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+.weather .weather__background {
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+}/*# sourceMappingURL=weather.css.map */

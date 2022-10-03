@@ -1,0 +1,77 @@
+@import "../colors/colors.scss";
+
+.quiz {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+  color: $text;
+  .score-section {
+    padding: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .score {
+      font-size: 2rem;
+    }
+  }
+  .question-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    .question-count {
+      font-size: 1.5rem;
+    }
+    .question-text {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  }
+  .answer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    button {
+      min-width: 10rem;
+      background-color: $text;
+      color: $white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      &:hover {
+        background-color: $text;
+      }
+    }
+  }
+  button {
+    background-color: $text;
+    color: $white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    &:hover {
+      background-color: $text;
+    }
+  }
+}
+
+.green {
+  background-color: $green;
+}
+.red {
+  background-color: $test;
+}

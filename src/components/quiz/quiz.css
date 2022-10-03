@@ -1,0 +1,76 @@
+.quiz {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  color: #222;
+}
+.quiz .score-section {
+  padding: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quiz .score-section .score {
+  font-size: 2rem;
+}
+.quiz .question-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.quiz .question-section .question-count {
+  font-size: 1.5rem;
+}
+.quiz .question-section .question-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.quiz .answer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.quiz .answer-section button {
+  min-width: 10rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.quiz .answer-section button:hover {
+  background-color: #222;
+}
+.quiz button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.quiz button:hover {
+  background-color: #222;
+}
+
+.green {
+  background-color: #07cf5e;
+}
+
+.red {
+  background-color: #e74a4a;
+}/*# sourceMappingURL=quiz.css.map */

@@ -1,3 +1,34 @@
+# Few React simple project as:
+`Timer`
+
+`Todo`
+
+`BMIcalculator` 
+
+`Calculator` 
+
+`Weather app`
+
+`PassGenerator` 
+
+`Quiz`
+
+`TicTacToe` 
+
+`Clicker`
+
+`Memebot`
+
+`Darkmode`
+
+## **NOTE:**
+
+### It's not all destructuryzed but it works😎 just started learning
+
+[DEMO](https://youtu.be/d1YBv2mWll0)
+
+<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

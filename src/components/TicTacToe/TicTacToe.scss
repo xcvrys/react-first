@@ -1,0 +1,60 @@
+@import "../colors/colors.scss";
+
+.TicTacToe {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $text;
+  p {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  table {
+    border-spacing: 15px;
+    border-radius: 1rem;
+
+    td {
+      background-color: $text;
+      width: 5rem;
+      height: 5rem;
+      padding: 1rem;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+      border-radius: 1rem;
+      cursor: pointer;
+      color: $white;
+
+      &:hover {
+        background-color: $test;
+      }
+    }
+  }
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    border: none;
+    background-color: $text;
+    color: $white;
+    cursor: pointer;
+    &:hover {
+      background-color: $green;
+      color: $white;
+    }
+  }
+}
+
+.Winner {
+  color: $green;
+}
+
+.Draw {
+  color: $gray;
+}

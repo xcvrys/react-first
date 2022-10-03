@@ -1,0 +1,25 @@
+@import "../colors/colors.scss";
+
+nav {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $text;
+
+  .link {
+    color: $text;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $test;
+      scale: 1.1;
+    }
+  }
+}

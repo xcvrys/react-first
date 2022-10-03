@@ -1,0 +1,51 @@
+@import "../colors/colors.scss";
+
+.memebot {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .memebot__background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $text;
+    padding: 1rem;
+    border-radius: 1rem;
+    h1 {
+      font-size: 5rem;
+    }
+    .memebot__result {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      max-width: 30rem;
+      img {
+        width: 20rem;
+        height: 20rem;
+      }
+      p {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+    }
+    button {
+      font-size: 1.5rem;
+      padding: 1rem;
+      border: none;
+      border-radius: 1rem;
+      background-color: $text;
+      color: $white;
+      cursor: pointer;
+      &:hover {
+        background-color: $test;
+      }
+    }
+  }
+}

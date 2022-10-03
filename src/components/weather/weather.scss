@@ -1,0 +1,73 @@
+@import "../colors/colors.scss";
+
+.weather {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 5rem;
+    color: $text;
+    height: 6.5rem;
+  }
+  .weather__input {
+    // background-color: $test;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      text-transform: uppercase;
+      margin: 10px;
+      padding: 10px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border: none;
+      background-color: $white;
+      color: $text;
+      cursor: pointer;
+      box-shadow: 5px 5px 0px #000000;
+      border-radius: 14px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    background-color: $white;
+    color: $text;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 14px;
+    &:hover {
+      background-color: $text;
+      color: $white;
+      translate: -2px -2px;
+      box-shadow: 7px 7px 2px #000000;
+    }
+  }
+  .weather__result {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    p {
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: $text;
+      text-align: center;
+    }
+  }
+  .weather__background {
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+  }
+}

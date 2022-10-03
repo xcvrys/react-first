@@ -1,0 +1,161 @@
+.passgenerator {
+  font-family: "Fira Code", monospace;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.passgenerator .passgenerator__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.passgenerator .passgenerator__container .passgenerator__container__title p {
+  text-align: center;
+  font-size: 4rem;
+  color: #222;
+  margin: 1rem;
+  font-weight: 800;
+}
+.passgenerator .passgenerator__container .passgenerator__container__password h2 {
+  font-size: 3rem;
+  color: #222;
+  margin: 2rem;
+  background-color: #e74a4a;
+  cursor: pointer;
+  height: 5.25rem;
+  align-items: center;
+  display: flex;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings p {
+  padding: 1rem;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  transition: all 150ms;
+  border: #222 0.2rem solid;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings input[type=checkbox]:checked {
+  border: 0px;
+  background-color: #e74a4a;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings input[type=checkbox]:checked::before {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 2px;
+  height: 2px;
+  background-color: #e74a4a;
+  transform: rotate(45deg);
+  border-radius: 3px;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings input[type=checkbox]:active {
+  transform: scale(0.95);
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length label {
+  font-size: 1.5rem;
+  color: #222;
+  margin: 10px;
+  padding: 10px;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length input[type=range] {
+  height: 24px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  background: transparent;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length input[type=range]:focus {
+  outline: none;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #222222;
+  border-radius: 0px;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length input[type=range]::-webkit-slider-thumb {
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  background: #e74a4a;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #222222;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #222222;
+  border-radius: 0px;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings__length input[type=range]::-moz-range-thumb {
+  border: 0px solid #ffffff;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  background: #e74a4a;
+  cursor: pointer;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.passgenerator .passgenerator__container .passgenerator__container__settings .passgenerator__container__settings label {
+  font-size: 1.5rem;
+  color: #222;
+  margin: 10px;
+  padding: 10px;
+}
+.passgenerator .passgenerator__container .passgenerator__container__generate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.passgenerator .passgenerator__container .passgenerator__container__generate button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  background-color: #e74a4a;
+  color: #222;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000000;
+  border-radius: 14px;
+}
+.passgenerator .passgenerator__container .passgenerator__container__generate button:hover {
+  background-color: #222;
+  color: #fff;
+  translate: -2px -2px;
+  box-shadow: 7px 7px 2px #000000;
+}/*# sourceMappingURL=passgenerator.css.map */
