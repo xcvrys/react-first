@@ -36,7 +36,7 @@ function App() {
       <Router>
         <Heder />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/react-first" element={<Home />} />
           <Route path="/timer" element={<Timer />} />
           <Route path="/todo" element={<Todo />} />
           <Route path="/Calculator" element={<Calculator />} />
