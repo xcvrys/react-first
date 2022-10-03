@@ -17,6 +17,11 @@ export const Home = () => {
         <Link to="/Clicker" className="link"> Clicker </Link>
         <Link to="/Memebot" className="link"> Memebot </Link>
         <Link to="/Darkmode" className="link"> Darkmode </Link>
+        <div className="github">
+          <a href="https://github.com/xcvrys/react-first" target="_blank" rel="noreferrer">
+            source code
+          </a>
+        </div>
       </nav>
     </>
   )

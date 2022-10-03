@@ -13,6 +13,7 @@ import TicTacToe from './components/TicTacToe/TicTacToe.js';
 import Clicker from './components/clicker/clicker.js';
 import Memebot from './components/memebot/memebot.js';
 import Darkmode from './components/darkmode/darkmode.js';
+import Pfolio from './components/pfolio/pfolio.js';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route exact path="/Darkmode" element={<Darkmode />} />
           <Route exact path="*" element={<h1>Page not Founmd</h1>} />
         </Routes>
+        <Pfolio />
       </Router>
     </div>
   );
@@ -44,11 +46,20 @@ function App() {
 export default App;
 
 
-// rafc
+// NOTES:
 
+
+// rafc => react arrow function component [
 // import React from 'react'
+//
 // export const App = () => {
 //   return (
 //     <div>App</div>
 //   )
 // }
+// ]
+
+
+// To Deploy React App to Github Pages:
+// npm gh-pages -d build
+// npm run deploy

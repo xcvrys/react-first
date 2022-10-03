@@ -1,0 +1,18 @@
+.pfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+}
+.pfolio a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.25rem;
+  transition: all 0.3s ease;
+}
+.pfolio a:hover {
+  color: #e74a4a;
+  scale: 1.1;
+}/*# sourceMappingURL=pfolio.css.map */

@@ -6,6 +6,7 @@ nav {
   justify-content: center;
   align-items: center;
   color: #222;
+  position: relative;
 }
 nav .link {
   color: #222;
@@ -19,4 +20,17 @@ nav .link {
 nav .link:hover {
   color: #e74a4a;
   scale: 1.1;
+}
+nav .github {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1rem;
+}
+nav .github a {
+  color: #222;
+  text-decoration: none;
+}
+nav .github a:hover {
+  color: #e74a4a;
 }/*# sourceMappingURL=home.css.map */

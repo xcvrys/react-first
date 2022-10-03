@@ -8,6 +8,7 @@ nav {
   justify-content: center;
   align-items: center;
   color: $text;
+  position: relative;
 
   .link {
     color: $text;
@@ -20,6 +21,21 @@ nav {
     &:hover {
       color: $test;
       scale: 1.1;
+    }
+  }
+  .github {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem;
+
+    a {
+      color: $text;
+      text-decoration: none;
+
+      &:hover {
+        color: $test;
+      }
     }
   }
 }

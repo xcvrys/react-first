@@ -10,6 +10,16 @@ const Timer = () => {
   let [state, setState] = useState(0);
 
   useEffect(() => {
+    if (minutes === 60) {
+      setStart(false);
+      setMinutes(0);
+      setSeconds(-1);
+
+      alert('🎉YOU WIN!🎉');
+    }
+  }, [minutes]);
+
+  useEffect(() => {
     let interval = null;
     if (start) {
       interval = setInterval(() => {
@@ -27,16 +37,6 @@ const Timer = () => {
       setSeconds(0);
     }
   }, [seconds]);
-
-  useEffect(() => {
-    if (minutes === 60) {
-      setStart(false);
-      setMinutes(60);
-      setSeconds(-1);
-
-      alert('🎉YOU WIN!🎉');
-    }
-  }, [minutes]);
 
   const remember = () => {
     state = minutes + ":" + seconds;
