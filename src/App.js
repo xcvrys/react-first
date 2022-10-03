@@ -17,38 +17,24 @@ import Darkmode from './components/darkmode/darkmode.js';
 
 function App() {
 
-  // const FooterRender = () => {
-  //   if (window.location.pathname === "/") {
-  //     return null;
-  //   } else {
-  //     return <Footer />
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   FooterRender();
-  // }, [])
-
-
-
   return (
     <div className="App">
       <Router>
         <Heder />
         <Routes>
-          <Route path="/react-first" element={<Home />} />
-          <Route path="/timer" element={<Timer />} />
-          <Route path="/todo" element={<Todo />} />
-          <Route path="/Calculator" element={<Calculator />} />
-          <Route path="/BMIcalculator" element={<BMIcalculator />} />
-          <Route path="/Weather" element={<Weather />} />
-          <Route path="/PassGenerator" element={<PassGenerator />} />
-          <Route path="/Quiz" element={<Quiz />} />
-          <Route path="/TicTacToe" element={<TicTacToe />} />
-          <Route path="/Clicker" element={<Clicker />} />
-          <Route path="/Memebot" element={<Memebot />} />
-          <Route path="/Darkmode" element={<Darkmode />} />
-          <Route path="*" element={<h1>Page not Founmd</h1>} />
+          <Route exact path="/react-first" element={<Home />} />
+          <Route exact path="/timer" element={<Timer />} />
+          <Route exact path="/todo" element={<Todo />} />
+          <Route exact path="/Calculator" element={<Calculator />} />
+          <Route exact path="/BMIcalculator" element={<BMIcalculator />} />
+          <Route exact path="/Weather" element={<Weather />} />
+          <Route exact path="/PassGenerator" element={<PassGenerator />} />
+          <Route exact path="/Quiz" element={<Quiz />} />
+          <Route exact path="/TicTacToe" element={<TicTacToe />} />
+          <Route exact path="/Clicker" element={<Clicker />} />
+          <Route exact path="/Memebot" element={<Memebot />} />
+          <Route exact path="/Darkmode" element={<Darkmode />} />
+          <Route exact path="*" element={<h1>Page not Founmd</h1>} />
         </Routes>
       </Router>
     </div>
@@ -57,10 +43,10 @@ function App() {
 
 export default App;
 
+
 // rafc
 
 // import React from 'react'
-
 // export const App = () => {
 //   return (
 //     <div>App</div>
