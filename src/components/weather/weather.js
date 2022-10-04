@@ -1,13 +1,14 @@
 import './weather.css';
 import React from 'react'
 import Footer from '../footer/footer';
+
 const Weather = () => {
 
   const [city, setCity] = React.useState('');
   const [weather, setWeather] = React.useState('');
 
   const getWeather = () => {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=e7d4ea3d57fe989eb940d36757a5f1e2&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${process.env.REACT_APP_WEATHER_KEY}&units=metric`)
 
       .then((res) => res.json())
       .then((data) => {
@@ -19,6 +20,7 @@ const Weather = () => {
   return (
     <>
       <div className="weather">
+        <p>need to setup api key in .env file</p>
         <div className='weather__background'>
           <h1>Weather</h1>
           <div className="weather__input">
