@@ -20,7 +20,6 @@ const Weather = () => {
   return (
     <>
       <div className="weather">
-        <p>need to setup api key in .env file</p>
         <div className='weather__background'>
           <h1>Weather</h1>
           <div className="weather__input">
