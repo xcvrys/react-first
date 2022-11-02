@@ -21,8 +21,6 @@
 
 `Darkmode`
 
-## **NOTE:**
-
 [DEMO](https://xcvrys.me/react-first/)
 
 <br/>
