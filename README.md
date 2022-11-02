@@ -23,8 +23,6 @@
 
 ## **NOTE:**
 
-### It's not all destructuryzed but it works😎 just started learning
-
 [DEMO](https://xcvrys.me/react-first/)
 
 <br/>
